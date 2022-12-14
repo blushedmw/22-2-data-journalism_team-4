@@ -63,7 +63,7 @@ col1, col2, col3 = st.columns(3)
 labels = 'positive', 'neither positive nor negative', 'negative'
 explode = (0, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 with col1:
-    st.write('미성년자와 성인의 교제에 대한 생각')
+    st.write('미성년자와 성인의 교제')
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
     ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
@@ -71,15 +71,15 @@ with col1:
     ax1.axis('equal') 
     st.pyplot(fig1)
 with col2:
-    st.write('미성년자와 성인의 임신 및 출산에 대한 생각')
+    st.write('미성년자와 성인의 임신 및 출산')
     sizes = [1/102*100,6/102*100,95/102*100]
     fig2, ax2 = plt.subplots()
     ax2.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90)
+            shadow=False, startangle=90, textprops={'fontsize': 14})
     ax2.axis('equal')
     st.pyplot(fig2)
 with col3:
-    st.write('미성년자 간의 임신 및 출산에 대한 생각')
+    st.write('미성년자 간의 임신 및 출산')
     sizes = [1/102*100,13/102*100,88/102*100]
     fig3, ax3 = plt.subplots()
     ax3.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
