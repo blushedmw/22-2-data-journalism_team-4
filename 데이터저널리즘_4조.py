@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-import matplotlib
+import matplotlib.pyplot as plt
 # st.cache를 이용하여 데이터 로딩을 하는 함수
 @st.cache
 def load_data(filename):
