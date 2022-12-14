@@ -1,10 +1,11 @@
+python -m pip install --upgrade pip
+
 import streamlit as st
 from PIL import Image
 import pandas as pd
 from tkinter.tix import COLUMN
 from pyparsing import empty
 
-/home/appuser/venv/bin/python -m pip install --upgrade pip
 #st.write(matplotlib.__version__)
 
 #제목 + 부제
