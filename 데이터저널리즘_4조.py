@@ -4,6 +4,7 @@ import pandas as pd
 from tkinter.tix import COLUMN
 from pyparsing import empty
 
+pip install --upgrade pip
 #st.write(matplotlib.__version__)
 
 #제목 + 부제
