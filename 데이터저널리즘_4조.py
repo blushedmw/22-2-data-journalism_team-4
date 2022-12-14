@@ -67,7 +67,7 @@ with col1:
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
     ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.2, pctdistance=1)
+            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.5, pctdistance=1.2)
     ax1.axis('equal') 
     st.pyplot(fig1)
 with col2:
@@ -75,7 +75,7 @@ with col2:
     sizes = [1/102*100,6/102*100,95/102*100]
     fig2, ax2 = plt.subplots()
     ax2.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90, textprops={'fontsize': 20})
+            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.5, pctdistance=1.2)
     ax2.axis('equal')
     st.pyplot(fig2)
 with col3:
@@ -83,7 +83,7 @@ with col3:
     sizes = [1/102*100,13/102*100,88/102*100]
     fig3, ax3 = plt.subplots()
     ax3.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90, textprops={'fontsize': 20})
+            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.5, pctdistance=1.2)
     ax3.axis('equal')
     st.pyplot(fig3)
 
