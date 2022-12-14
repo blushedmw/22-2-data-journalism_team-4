@@ -213,12 +213,12 @@ col1,col2,col3,col4 = st.columns(4)
 
 with col1:
     thumb19_1=load_image("thumb19-1.png")
-    st.image(thumb19_1)
+    st.image(thumb19_1,width=300)
     thumb19_3=load_image("thumb19-3.png")
-    st.image(thumb19_3)
+    st.image(thumb19_3,width=300)
 with col2:
     thumb19_2=load_image("thumb19-2.png")
-    st.image(thumb19_2)
+    st.image(thumb19_2,width=300)
     thumb19_4=load_image("thumb19-4.png")
     st.image(thumb19_4)
     
