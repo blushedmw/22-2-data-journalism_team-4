@@ -58,17 +58,34 @@ st.success('''
 (2022년 12월 8일~2022년 12월 11월까지 102명의 응답을 받은 “미성년자 부모에 대한 인식 조사” 설문에서 활용한 질문 중 일부 발췌)
 ''')
 
-plt.rcParams['font.family'] = 'NanumSquare'
-labels = '긍정', '보통', '부정'
-sizes = [3/102*100,9/102*100,90/102*100]
+# plt.rcParams['font.family'] = 'NanumSquare'
+col1, col2, col3 = st.columns(3)
+labels = 'positive', 'neither positive nor negative', 'negative'
 explode = (0, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
-
-fig1, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-st.pyplot(fig1)
+with col1:
+    st.write('미성년자와 성인의 교제에 대한 생각')
+    sizes = [3/102*100,9/102*100,90/102*100]
+    fig1, ax1 = plt.subplots()
+    ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+            shadow=False, startangle=90)
+    ax1.axis('equal') 
+    st.pyplot(fig1)
+with col2:
+    st.write('미성년자와 성인의 임신 및 출산에 대한 생각')
+    sizes = [1/102*100,6/102*100,95/102*100]
+    fig2, ax2 = plt.subplots()
+    ax2.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+            shadow=False, startangle=90)
+    ax2.axis('equal')
+    st.pyplot(fig2)
+with col3:
+    st.write('미성년자 간의 임신 및 출산에 대한 생각')
+    sizes = [1/102*100,13/102*100,88/102*100]
+    fig3, ax3 = plt.subplots()
+    ax3.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+            shadow=False, startangle=90)
+    ax3.axis('equal')
+    st.pyplot(fig3)
 
 st.write("102명의 응답을 종합해보았을 때, 첫 번째 질문의 경우 부정적인 답변을 보인 사람이 32.35%, 두 번째 질문의 경우 부정적인 답변을 보인 사람이 36.27%, 세 번째 질문의 경우 부정적인 답변을 보인 사람이 38.24%였습니다. 대체로 1/3을 초과하는 사람들이 미성년자-성인으로 이루어진 가정, 미성년자-미성년자로 이루어진 가정에 대해 부정적인 인식을 가지고 있었죠. 사회에서 정상가족을 정의할 때 중요하게 고려해야 하는 요소 중 하나는 사람들이, 사회가 그들을 어떻게 생각하느냐일 것입니다. 그런 점에서 미성년자가 포함된 가족의 형태는 부정적인 인식이 1/3을 초과하기 때문에 정상가족의 범주 바깥에 존재하고 있다고 볼 수 있습니다.") 
 
