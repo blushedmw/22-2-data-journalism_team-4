@@ -60,8 +60,8 @@ st.success('''
 
 labels = '긍정', '보통', '부정'
 sizes = [3/102*100,9/102*100,90/102*100]
-explode = (0, 0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
-
+explode = (0, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+plt.rcParams['font.family'] = 'NanumSquare'
 fig1, ax1 = plt.subplots()
 ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
         shadow=True, startangle=90)
