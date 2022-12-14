@@ -72,7 +72,7 @@ with col1:
     st.pyplot(fig1)
 with col2:
     st.write('**미성년자와 성인의 임신 및 출산**')
-    labels = 'p', 'nu', 'ne'
+    labels = '', '', 'negative'
     sizes = [1/102*100,6/102*100,95/102*100]
     fig2, ax2 = plt.subplots()
     ax2.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
@@ -81,7 +81,7 @@ with col2:
     st.pyplot(fig2)
 with col3:
     st.write('**미성년자 간의 임신 및 출산**')
-    labels = 'p', 'nu', 'ne'
+    labels = '', '', 'negative'
     sizes = [1/102*100,13/102*100,88/102*100]
     fig3, ax3 = plt.subplots()
     ax3.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
