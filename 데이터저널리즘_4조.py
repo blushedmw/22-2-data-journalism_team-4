@@ -1,8 +1,6 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-# from tkinter.tix import COLUMN
-# from pyparsing import empty
 
 #st.write(matplotlib.__version__)
 
@@ -93,18 +91,16 @@ def load_image(image_file):
 st.subheader("👶 4화 - 윤철, 민영과 추형제의 이야기")
 st.markdown('"**(재연 드라마를) 뚜껑 안 열리고 보긴 처음!**"이라는 MC 교진의 반응처럼, 보는 내내 흐뭇한 미소가 지어지는 힙스터 부부(윤철, 민영)가 등장한 회차였습니다. 고딩아빠 윤철과 고딩엄마 민영은, 고등학교 2학년, 18살이라는 어린 나이에 아이를 갖게 되었지만, 그들 자신의 책임감과 양가 부모님의 허락으로 무사히 아이를 낳아 현재는 두 아이의 부모가 되었다고 합니다. 특히 사랑꾼 윤철의 면모가 부각되며 대체로 행복한 모습이 많이 보였지만, 민영이 겪었던 고부 갈등에 대해서도 언급되었는데요, 이 회차에 대해 본격적으로 살펴볼까요?')
 
-col1,col2,col3,col4 = st.columns(4)
+col1,col2 = st.columns(2)
 
 with col1:
     thumb4_1=load_image("thumb4-1.png")
-    st.image(thumb4_1,width=170)
+    st.image(thumb4_1)
+    thumb4_3=load_image("thumb4-3.png")
+    st.image(thumb4_3)
 with col2:
     thumb4_2=load_image("thumb4-2.png")
     st.image(thumb4_2,width=170)
-with col3:
-    thumb4_3=load_image("thumb4-3.png")
-    st.image(thumb4_3,width=170)
-with col4:
     thumb4_4=load_image("thumb4-4.png")
     st.image(thumb4_4,width=170)
     
