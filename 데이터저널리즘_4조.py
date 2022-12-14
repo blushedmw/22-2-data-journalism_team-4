@@ -1,9 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-import seaborn as sb
 import matplotlib
-from bokeh.plotting import figure
 from tkinter.tix import COLUMN
 from pyparsing import empty
 
