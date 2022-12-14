@@ -7,7 +7,8 @@ import pandas as pd
 #st.write(matplotlib.__version__)
 
 #제목 + 부제
-st.title('<고딩엄빠>를 바라보는 미디어와 우리의 자세 📹')
+st.title('<고딩엄빠>를 바라보는') 
+st.title('미디어와 우리의 자세 📹')
 st.write('미디어는, 그리고 우리는 <고딩엄빠>를 어떻게 바라보는가?')
 
 #서론 - 정민
