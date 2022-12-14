@@ -60,10 +60,10 @@ st.success('''
 
 # plt.rcParams['font.family'] = 'NanumSquare'
 col1, col2, col3 = st.columns(3)
-labels = 'positive', 'nuetral', 'negative'
 explode = (0, 0, 0) 
 with col1:
-    st.write('미성년자와 성인의 교제')
+    st.write('**미성년자와 성인의 교제**')
+    labels = 'positive', 'nuetral', 'negative'
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
     ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
@@ -71,7 +71,8 @@ with col1:
     ax1.axis('equal') 
     st.pyplot(fig1)
 with col2:
-    st.write('미성년자와 성인의 임신 및 출산')
+    st.write('**미성년자와 성인의 임신 및 출산**')
+    labels = 'p', 'nu', 'ne'
     sizes = [1/102*100,6/102*100,95/102*100]
     fig2, ax2 = plt.subplots()
     ax2.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
@@ -79,7 +80,8 @@ with col2:
     ax2.axis('equal')
     st.pyplot(fig2)
 with col3:
-    st.write('미성년자 간의 임신 및 출산')
+    st.write('**미성년자 간의 임신 및 출산**')
+    labels = 'p', 'nu', 'ne'
     sizes = [1/102*100,13/102*100,88/102*100]
     fig3, ax3 = plt.subplots()
     ax3.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
