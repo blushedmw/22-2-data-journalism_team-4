@@ -67,9 +67,8 @@ with col1:
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
     ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.2)
+            shadow=False, startangle=90, textprops={'fontsize': 20}, labeldistance=1.2, pctdistance=1)
     ax1.axis('equal') 
-    ax1.set_title("미성년자와 성인의 교제")
     st.pyplot(fig1)
 with col2:
     st.write('미성년자와 성인의 임신 및 출산')
