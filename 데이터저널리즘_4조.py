@@ -62,7 +62,7 @@ st.success('''
 col1, col2, col3 = st.columns(3)
 explode = (0, 0, 0) 
 with col1:
-    st.write('**미성년자와 성인의 교제**').center()
+    st.write('**미성년자와 성인의 교제**')
     labels = 'positive', 'nuetral', 'negative'
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
