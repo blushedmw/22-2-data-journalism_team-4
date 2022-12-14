@@ -209,16 +209,16 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #(2) 회차별 - 19회
 st.subheader("👶 19화 - 가연과 딸 예빈의 이야기")
 st.markdown('아무리 <고딩엄빠2>가 10대 임신에 대한 인식 변화를 목표에 두고 있다고 해도, 매 회차에 이상적인 부부의 모습만 담을 수는 없을 것입니다. 19화에는 19살에 가지게 된 아이 예빈이를 홀로 키우는 엄마 가연의 이야기가 다뤄졌습니다. 이혼 후 소식이 끊긴 어머니와 늘 무관심했던 아버지 때문에 외로움을 느꼈던 예빈이 한 남자를 만나고 임신을 하게 되는데, 이 남자의 가족에 의한 강제 유산부터 남자의 외도, 폭행까지. 이 모든 것을 견딜 수 없던 가연은 결국 예빈이를 데리고 나와 둘이서 지내게 되었는데요, 싱글맘 가연의 이야기가 어떠한 방식으로 다뤄졌고 시청자들은 어떠한 반응을 보였는지 확인해보겠습니다.')
-col1,col2,col3,col4 = st.columns(4)
+col1,col2= st.columns(2)
 
 with col1:
     thumb19_1=load_image("thumb19-1.png")
-    st.image(thumb19_1,width=300)
+    st.image(thumb19_1)
     thumb19_3=load_image("thumb19-3.png")
-    st.image(thumb19_3,width=300)
+    st.image(thumb19_3)
 with col2:
     thumb19_2=load_image("thumb19-2.png")
-    st.image(thumb19_2,width=300)
+    st.image(thumb19_2)
     thumb19_4=load_image("thumb19-4.png")
     st.image(thumb19_4)
     
@@ -308,7 +308,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #(3) 회차별 - 25화
 st.subheader("👶 25화 - 보현과 은석, 그리고 오둥이의 이야기")
 st.markdown('SNS에서 크게 화제가 되었던, 열 살 차이에다가 자식이 5명인 부부에 대한 이야기. 다들 접해보신 적 있으신가요? 그 이야기가 바로 25화에 담겨 있었습니다. 초등학교 시절 학교 폭력을 당했던 보현은, 열 살 차이가 나는 교회 선생님 은석과 고등학생 때 연애를 시작, 출산을 하게 되었습니다. 집에는 비밀로 하고 홀로 상경해 미혼모센터에서 아이를 낳은 보현. 현재는 은석과 함께 무려 5명의 아이를 키우고 있습니다. 25화에 대한 자세한 내용을 알아볼까요?')
-col1,col2,col3,col4 = st.columns(4)
+col1,col2 = st.columns(2)
 
 with col1:
     thumb25_1=load_image("thumb25-1.png")
@@ -405,7 +405,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #(4) 회차별 - 11화
 st.subheader("👶 11화 - 효민과 상혁, 그리고 석수율 남매의 이야기")
 st.markdown('‘고딩엄빠’들의 사연도 놀라운 점들이 많은데, 11화에는 무려 ‘중딩엄마’가 출연했습니다. 16살에 아이를 낳게 된 효민은, 다음에 만나게 된 남자의 아이까지 임신하게 되었습니다. 두 번째 아이를 화장실에서 낳는 등 힘든 시간을 겪었는데요, 지금은 세 번째로 만난, 친구였던 상혁과 결혼하여, 상혁과의 아이까지 총 4명의 아이를 키우고 있습니다. 이들의 모습이 방송에서 어떻게 그려졌고, 또 반응은 어땠는지 확인해보겠습니다!')
-col1,col2,col3,col4 = st.columns(4)
+col1,col2 = st.columns(2)
 
 with col1:
     thumb11_1=load_image("thumb11-1.png")
