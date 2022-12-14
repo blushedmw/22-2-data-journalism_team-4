@@ -62,7 +62,7 @@ st.success('''
 col1, col2, col3 = st.columns(3)
 explode = (0, 0, 0) 
 with col1:
-    st.write('**미성년자와 성인의 교제**')
+    st.markdown('* 미성년자&성인 교제')
     labels = 'positive', 'nuetral', 'negative'
     sizes = [3/102*100,9/102*100,90/102*100]
     fig1, ax1 = plt.subplots()
@@ -71,7 +71,7 @@ with col1:
     ax1.axis('equal') 
     st.pyplot(fig1)
 with col2:
-    st.write('**미성년자와 성인의 임신 및 출산**')
+    st.markdown('* 미성년자&성인 임신, 출산')
     labels = 'p', 'nu', 'negative'
     sizes = [1/102*100,6/102*100,95/102*100]
     fig2, ax2 = plt.subplots()
@@ -80,7 +80,7 @@ with col2:
     ax2.axis('equal')
     st.pyplot(fig2)
 with col3:
-    st.write('**미성년자 간의 임신 및 출산**')
+    st.markdown('* 미성년자 간 임신, 출산')
     labels = 'p', 'nu', 'negative'
     sizes = [1/102*100,13/102*100,88/102*100]
     fig3, ax3 = plt.subplots()
@@ -587,7 +587,7 @@ st.write("""
 
 st.write(""" 정상가족의 범위에서 벗어난 가정을 다루는 <고딩엄빠>에게는
 많은 걱정과 우려의 시선이 있었지만, 시청자 반응 데이터 분석 결과 우리가
-주목했던 것은 방송을 본 ** 시청자들의 실제 반응이 마냥 부정적이지만은 않았다는
+주목했던 것은 방송을 본 **시청자들의 실제 반응이 마냥 부정적이지만은 않았다는
 점** 입니다. 책임감 있는 모습으로 열심히 아이를 키우고 있는 부모에게 **응원과
 격려** 를 보내기도 하고, 힘들게 살아가고 있는 부모여도 이들이 정상적인 생활을
 하고 사회에 자리잡을 수 있도록 **따끔한 조언** 을 해주기도 합니다.
