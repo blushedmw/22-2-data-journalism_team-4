@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-from tkinter.tix import COLUMN
-from pyparsing import empty
+# from tkinter.tix import COLUMN
+# from pyparsing import empty
 
 #st.write(matplotlib.__version__)
 
