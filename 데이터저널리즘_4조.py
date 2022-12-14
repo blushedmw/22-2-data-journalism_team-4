@@ -100,9 +100,9 @@ with col1:
     st.image(thumb4_3)
 with col2:
     thumb4_2=load_image("thumb4-2.png")
-    st.image(thumb4_2,width=170)
+    st.image(thumb4_2)
     thumb4_4=load_image("thumb4-4.png")
-    st.image(thumb4_4,width=170)
+    st.image(thumb4_4)
     
 st.write("**📝 회차 내용 구성**")
 st.markdown("**아이들과 함께 출근 준비를 하는 부부의 모습**으로 시작해, **부부의 출근길**, **육아를 도와주는 양가 부모님들**, **부부의 퇴근길**, **고부 관계**, **사진 찍기를 좋아하는 민영과 가족의 주말 나들이 모습** 등이 담겨 있었습니다.")
@@ -213,16 +213,14 @@ col1,col2,col3,col4 = st.columns(4)
 
 with col1:
     thumb19_1=load_image("thumb19-1.png")
-    st.image(thumb19_1,width=170)
+    st.image(thumb19_1)
+    thumb19_3=load_image("thumb19-3.png")
+    st.image(thumb19_3)
 with col2:
     thumb19_2=load_image("thumb19-2.png")
-    st.image(thumb19_2,width=170)
-with col3:
-    thumb19_3=load_image("thumb19-3.png")
-    st.image(thumb19_3,width=170)
-with col4:
+    st.image(thumb19_2)
     thumb19_4=load_image("thumb19-4.png")
-    st.image(thumb19_4,width=170)
+    st.image(thumb19_4)
     
 st.write("**📝 회차 내용 구성**")
 st.markdown("**엄마 가연과 딸 예빈이 함께 지내는 모습, 가연이 또래 아이 엄마들과 나눈 대화, 예빈의 발달 검사와 가연의 정서 관련 검사 장면** 등이 담겨 있었습니다.")
@@ -314,16 +312,14 @@ col1,col2,col3,col4 = st.columns(4)
 
 with col1:
     thumb25_1=load_image("thumb25-1.png")
-    st.image(thumb25_1,width=170)
+    st.image(thumb25_1)
+    thumb25_3=load_image("thumb25-3.png")
+    st.image(thumb25_3)
 with col2:
     thumb25_2=load_image("thumb25-2.png")
-    st.image(thumb25_2,width=170)
-with col3:
-    thumb25_3=load_image("thumb25-3.png")
-    st.image(thumb25_3,width=170)
-with col4:
+    st.image(thumb25_2)
     thumb25_4=load_image("thumb25-4.png")
-    st.image(thumb25_4,width=170)
+    st.image(thumb25_4)
     
 st.write("**📝 회차 내용 구성**")
 st.markdown("**오둥이와 부부의 나들이, 경제 사정에 대한 언급, 구직하는 남편, 보현 동생의 방문, 보현 은석 가족의 시댁 방문** 등의 내용이 담겨 있었습니다.")
@@ -413,16 +409,14 @@ col1,col2,col3,col4 = st.columns(4)
 
 with col1:
     thumb11_1=load_image("thumb11-1.png")
-    st.image(thumb11_1,width=170)
+    st.image(thumb11_1)
+    thumb11_3=load_image("thumb11-3.png")
+    st.image(thumb11_3)
 with col2:
     thumb11_2=load_image("thumb11-2.png")
-    st.image(thumb11_2,width=170)
-with col3:
-    thumb11_3=load_image("thumb11-3.png")
-    st.image(thumb11_3,width=170)
-with col4:
+    st.image(thumb11_2)
     thumb11_4=load_image("thumb11-4.png")
-    st.image(thumb11_4,width=170)
+    st.image(thumb11_4)
     
 st.write("**📝 회차 내용 구성**")
 st.markdown("**효민과 상혁의 아이들 소개** 와 **효민의 친정에 간 일, 효민과 상혁의 싸움** 그리고 **자신의 친부를 묻는 첫째 아들 진석의 이야기** 가 담겨있었습니다. ")
