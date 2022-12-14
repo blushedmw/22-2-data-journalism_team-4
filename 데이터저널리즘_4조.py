@@ -68,20 +68,20 @@ st.info(
 """
 )
 
-# # Markdown 문법을 사용하기 위한 함수
-# st.markdown("<hr>", unsafe_allow_html=True)
+# Markdown 문법을 사용하기 위한 함수
+st.markdown("<hr>", unsafe_allow_html=True)
 
-# #회차별 분석
-# # st.cache를 이용하여 데이터 로딩을 하는 함수
-# @st.cache
-# def load_data(filename):
-#     data = pd.read_csv(filename)
-#     data.date = pd.to_datetime(data.date)
-#     return data
-# #이미지 불러오기 함수
-# def load_image(image_file):
-#     img = Image.open(image_file)
-#     return img
+#회차별 분석
+# st.cache를 이용하여 데이터 로딩을 하는 함수
+@st.cache
+def load_data(filename):
+    data = pd.read_csv(filename)
+    data.date = pd.to_datetime(data.date)
+    return data
+#이미지 불러오기 함수
+def load_image(image_file):
+    img = Image.open(image_file)
+    return img
 
 # #(1) 회차별 - 4회
 # st.subheader("👶 4화 - 윤철, 민영과 추형제의 이야기")
