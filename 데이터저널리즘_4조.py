@@ -120,7 +120,7 @@ ex) 추윤철 (추형제 아빠) : ~~~
 
 st.write("")
 st.markdown("##### (1) 방송사 자막 분석")
-tvwc4=load_image("tvwc4.png")
+tvwc4=load_image("tvwc4.PNG")
 st.image(tvwc4)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -138,7 +138,7 @@ with st.expander('4화 방송사 자막 관련 데이터'):
 
 st.write("")
 st.markdown("##### (2) 유튜브 클립 댓글 분석")
-ytwc4=load_image("ytwc4.png")
+ytwc4=load_image("ytwc4.PNG")
 st.image(ytwc4)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -231,7 +231,7 @@ st.markdown('''
 
 st.write("")
 st.markdown("##### (1) 방송사 자막 분석")
-tvwc19=load_image("tvwc19.png")
+tvwc19=load_image("tvwc19.PNG")
 st.image(tvwc19)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -248,7 +248,7 @@ with st.expander('19화 방송사 자막 관련 데이터'):
 
 st.write("")
 st.markdown("##### (2) 유튜브 클립 댓글 분석")
-ytwc19=load_image("ytwc19.png")
+ytwc19=load_image("ytwc19.PNG")
 st.image(ytwc19)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -285,11 +285,11 @@ st.markdown("19화는 방송 자막과 유튜브 댓글 모두 긍정 혹은 부
 col1,col2 = st.columns(2)
 with col1:
     st.write("방송 자막 감정 비율")
-    tvsent19_2=load_image("tvsent19_2.png")
+    tvsent19_2=load_image("tvsent19_2.PNG")
     st.image(tvsent19_2)
 with col2:
     st.write("유튜브 클립 댓글 감정 비율")
-    ytsent19_2=load_image("ytsent19_2.png")
+    ytsent19_2=load_image("ytsent19_2.PNG")
     st.image(ytsent19_2)
 
 st.write('')
@@ -333,7 +333,7 @@ st.markdown('''
 
 st.write("")
 st.markdown("##### (1) 방송사 자막 분석")
-tvwc25=load_image("tvwc25.png")
+tvwc25=load_image("tvwc25.PNG")
 st.image(tvwc25)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -350,7 +350,7 @@ with st.expander('25화 방송사 자막 관련 데이터'):
 
 st.write("")
 st.markdown("##### (2) 유튜브 클립 댓글 분석")
-ytwc25=load_image("ytwc25.png")
+ytwc25=load_image("ytwc25.PNG")
 st.image(ytwc25)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -432,7 +432,7 @@ st.markdown('''
 
 st.write("")
 st.markdown("##### (1) 방송사 자막 분석")
-tvwc11=load_image("tvwc11.png")
+tvwc11=load_image("tvwc11.PNG")
 st.image(tvwc11)
 
 st.write("**☁ 워드 클라우드 분석**")
@@ -449,7 +449,7 @@ with st.expander('11화 방송사 자막 관련 데이터'):
 
 st.write("")
 st.markdown("##### (2) 유튜브 클립 댓글 분석")
-ytwc11=load_image("ytwc11.png")
+ytwc11=load_image("ytwc11.PNG")
 st.image(ytwc11)
 
 st.write("**☁ 워드 클라우드 분석**")
