@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-# import plotly.express as px
 # st.cache를 이용하여 데이터 로딩을 하는 함수
 @st.cache
 def load_data(filename):
@@ -635,7 +634,7 @@ yt25 = (26463+63953+194980+10535)/4
 gdub = pd.DataFrame({'scene':['1', '4', '11', '12', '13', '19', '20', '25'], 'view_ratio':[2.0, 1.9, 1.8, 2.0, 1.9, 2.4, 3.0, 2.7], 'youtube_watch':[yt1, yt4, yt11, yt12, yt13, yt19, yt20, yt25], 'negative_ratio':[60.71, 26.58, 48.18, 55.77, 49.3, 43.89, 27.79, 45.88]})
 fig = px.scatter(gdub, x="scene", y="view_ratio", color="negative_ratio",
                  size='negative_ratio')
-fig.show()
+st.plotly_chart(fig)
 
 gdub12 = load_image("gdub12.PNG")
 st.image(gdub12)
