@@ -66,13 +66,9 @@ col1, col2, col3 = st.columns(3)
 explode = (0, 0, 0) 
 with col1:
     st.markdown('* 미성년자&성인 교제')
-    labels = 'positive', 'nuetral', 'negative'
-    sizes = [3/102*100,9/102*100,90/102*100]
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=False, startangle=90, textprops={'fontsize': 16}, labeldistance=1.5, pctdistance=1.2)
-    ax1.axis('equal') 
-    st.pyplot(fig1)
+    q1 = pd.DataFrame({'labels':['positive', 'nuetral', 'negative'], 'sizes' = [3/102*100,9/102*100,90/102*100]})
+    q1fig = px.pie(q1, values='sizes', names='labels')
+    st.pyplot(q1fig)
 with col2:
     st.markdown('* 미성년자&성인 임신, 출산')
     labels = 'p', 'nu', 'negative'
