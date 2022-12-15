@@ -634,18 +634,20 @@ yt13 = (508514+594565+573847+779171)/4
 yt19 = (293743+533912+884402+314420)/4
 yt20 = (1761907+576705+540874+211665)/4
 yt25 = (26463+63953+194980+10535)/4
-gdub = pd.DataFrame({'scene':['1', '4', '11', '12', '13', '19', '20', '25'], 'view_ratio':[2.0, 1.9, 1.8, 2.0, 1.9, 2.4, 3.0, 2.7], 'youtube_watch':[yt1, yt4, yt11, yt12, yt13, yt19, yt20, yt25], 'negative_ratio':[60.71, 26.58, 48.18, 55.77, 49.3, 43.89, 27.79, 45.88]})
+gdub = pd.DataFrame({'scene':['1', '4', '11', '12', '13', '19', '20', '25'], 'view_ratio':[2.0, 1.9, 1.8, 2.0, 1.9, 2.4, 3.0, 2.7], 'youtube_watch':[yt1, yt4, yt11, yt12, yt13, yt19, yt20, yt25], 'negative_ratio_co':[60.71, 26.58, 48.18, 55.77, 49.3, 43.89, 27.79, 45.88], 'negative_ratio_tv':[54.05, 24.39, 50, 52.31, 54.55, 48.72, 52.13, 60.71]})
 
 #시청률
-st.markdown('* 회차별 시청률과 부정적 댓글 비율 그래프')
+st.markdown('📈 **회차별 시청률과 부정적 댓글 비율 그래프**')
 fig1 = px.scatter(gdub, x="scene", y="view_ratio", color="negative_ratio",
-                 size='negative_ratio')
+                 size='negative_ratio_tv')
 st.plotly_chart(fig1)
 
-st.markdown('* 회차별 유튜브 클립 조회수와 부정적 댓글 비율 그래프')
+st.markdown('📈 **회차별 유튜브 클립 조회수와 부정적 댓글 비율 그래프**')
 fig2 = px.scatter(gdub, x="scene", y="youtube_watch", color="negative_ratio",
-                 size='negative_ratio')
+                 size='negative_ratio_tv')
 st.plotly_chart(fig2)
+
+st.write('')
 
 gdub12 = load_image("gdub12.PNG")
 st.image(gdub12)
