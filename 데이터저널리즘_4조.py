@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import matplotlib.pyplot as plt
+
+st.write(plotly.__version__)
+
 # import plotly.express as px
 # st.cache를 이용하여 데이터 로딩을 하는 함수
 @st.cache
