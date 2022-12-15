@@ -63,6 +63,7 @@ st.success('''
 
 # plt.rcParams['font.family'] = 'NanumSquare'
 col1, col2, col3 = st.columns(3)
+explode = [0,0,0]
 with col1:
     st.markdown('* 미성년자&성인 교제')
     labels = 'positive', 'nuetral', 'negative'
