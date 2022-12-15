@@ -66,7 +66,7 @@ col1, col2, col3 = st.columns(3)
 explode = (0, 0, 0) 
 with col1:
     st.markdown('* 미성년자&성인 교제')
-    q1 = pd.DataFrame({'labels':['positive', 'nuetral', 'negative'], 'n_ratio' = [3/102*100,9/102*100,90/102*100]})
+    q1 = pd.DataFrame({'labels':['positive', 'nuetral', 'negative'], 'n_ratio':[3/102*100,9/102*100,90/102*100]})
     q1fig = px.pie(q1, values='n_ratio', names='labels')
     st.plotly_chart(q1fig)
 with col2:
