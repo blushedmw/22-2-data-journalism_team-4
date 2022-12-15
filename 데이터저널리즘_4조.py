@@ -10,7 +10,7 @@ def load_data(filename):
     data.date = pd.to_datetime(data.date)
     return data
 #이미지 불러오기 함수
-@st.cache
+# @st.cache
 def load_image(image_file):
     img = Image.open(image_file)
     return img
