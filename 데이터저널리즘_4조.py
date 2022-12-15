@@ -638,12 +638,12 @@ gdub = pd.DataFrame({'scene':['1', '4', '11', '12', '13', '19', '20', '25'], 'vi
 
 #시청률
 st.markdown('📈 **회차별 시청률과 부정적 댓글 비율 그래프**')
-fig1 = px.scatter(gdub, x="scene", y="view_ratio", color="negative_ratio",
+fig1 = px.scatter(gdub, x="scene", y="view_ratio", color="negative_ratio_tv",
                  size='negative_ratio_tv')
 st.plotly_chart(fig1)
 
 st.markdown('📈 **회차별 유튜브 클립 조회수와 부정적 댓글 비율 그래프**')
-fig2 = px.scatter(gdub, x="scene", y="youtube_watch", color="negative_ratio",
+fig2 = px.scatter(gdub, x="scene", y="youtube_watch", color="negative_ratio_tv",
                  size='negative_ratio_tv')
 st.plotly_chart(fig2)
 
