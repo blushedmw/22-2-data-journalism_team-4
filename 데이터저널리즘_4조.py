@@ -242,7 +242,7 @@ with col1:
     st.image(tvsent4)
 with col2:
     st.write("유튜브 클립 댓글")
-    ytsent4=load_image("ytsent4.png")
+    ytsent4=load_image("Ytsent4.png")
     st.image(ytsent4)
 st.write("**🤍 감성분석 결과 비교**")
 st.markdown("실제로 감성분석 결과, 4회는 방송 자막과 유튜브 댓글 모두 긍정적인 표현이 각각 **75.6%** 와 **79.7%** 를 차지했습니다. **호감** 과 **기쁨** 을 나타내는 표현이 공통적으로 많았네요!")
@@ -348,7 +348,7 @@ with col1:
     st.image(tvsent19)
 with col2:
     st.write("유튜브 클립 댓글")
-    ytsent19=load_image("ytsent19.png")
+    ytsent19=load_image("Ytsent19.png")
     st.image(ytsent19)
 st.write("**🤍 감성분석 결과 비교**")
 st.markdown("19화는 방송 자막과 유튜브 댓글 모두 긍정 혹은 부정에 크게 치우치지 않았다는 것을 알 수 있습니다. 그래도 ‘부정’을 이루는 감정 중 어떤 감정에 초점을 두었는지는 비교적 명확했는데, 방송에서는 앞으로 아이를 홀로 키워나가야 한다는 사실과 아이의 발달이 늦다는 것에 대한 가연의 걱정에 초점을 맞추다 보니 ‘**두려움**’과 ‘**슬픔**’의 비율이 높았습니다. 댓글 역시 ‘**슬픔**’의 비율이 높았는데, 실제 댓글을 확인해보니 가연에게 공감하는 댓글만이 아닌, 가연과 예빈 친부 모두를 탓하는 내용도 다수 있었습니다.")
@@ -359,7 +359,7 @@ with col1:
     st.image(tvsent19_2)
 with col2:
     st.write("유튜브 클립 댓글 감정 비율")
-    ytsent19_2=load_image("ytsent19_2.PNG")
+    ytsent19_2=load_image("Ytsent19_2.PNG")
     st.image(ytsent19_2)
 
 st.write('')
@@ -467,7 +467,7 @@ with col1:
     st.image(tvsent25)
 with col2:
     st.write("유튜브 클립 댓글")
-    ytsent25=load_image("ytsent25.png")
+    ytsent25=load_image("Ytsent25.png")
     st.image(ytsent25)
 st.write("**🤍 감성분석 결과 비교**")
 st.markdown("위의 두 감성분석 결과 그래프를 보면, 25화는 방송자막과 유튜브 댓글 반응이 살짝 엇갈린 것을 알 수 있습니다. 방송에서는 보현, 은석 가족의 막막함, 두려움의 감정을 앞세워 ‘**부정**’, 그 중에서도 ‘**두려움**’에 관한 표현이 많이 쓰인 반면, 댓글에서는 ‘**긍정**’의 비율이 살짝 더 높았습니다. ‘부정’에서는 ‘**슬픔**’과 ‘**거부감**’의 비율이 비교적 높았습니다. SNS 상에서 뜨거운 비난의 목소리가 있었던 것을 고려하면, 댓글의 반응이 조금이나마 더 긍정적이라는 것은 상당히 의외였는데요, 감성분석 상 오류가 있음을 감안하고 실제로 댓글들을 확인해봤을 때도, 앞서 댓글 워드클라우드 항목에서 제시했던 것처럼 응원의 반응이 꽤 많았습니다.")
@@ -581,7 +581,7 @@ with col1:
     st.image(tvsent11)
 with col2:
     st.write("유튜브 클립 댓글")
-    ytsent11=load_image("ytsent11.png")
+    ytsent11=load_image("Ytsent11.png")
     st.image(ytsent11)
 st.write("**🤍 감성분석 결과 비교**")
 st.markdown("")
