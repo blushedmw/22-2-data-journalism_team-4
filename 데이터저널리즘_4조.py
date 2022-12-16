@@ -26,7 +26,7 @@ st.header("난... 정상일까?")
 
 st.subheader('"야, 왜 그래? 나 완전 정상이야!"')
 
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2) 
 with col1:
     question=load_image("question.PNG")
     st.image(question)
